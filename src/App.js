@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className={`app ${bgClass}`}>
-      <h1>Weather Dashboard</h1>
+      <h1>Weather Outlook</h1>
       <SearchBar onSearch={fetchWeatherData} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {weeklyForecast.length > 0 && <WeeklyForecast forecast={weeklyForecast} />}
